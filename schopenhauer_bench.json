@@ -1,0 +1,301 @@
+[
+  {
+    "id": "Metaphysics_1",
+    "question": "What is Schopenhauer's metaphysical view of the world?",
+    "golden_answer_points": [
+      "Schopenhauer views the world as essentially irrational",
+      "He argues that the world is a manifestation of the 'will'",
+      "This perspective challenges the traditional notion of a rational, orderly universe"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_2",
+    "question": "How does Schopenhauer's metaphysics relate to his aesthetics?",
+    "golden_answer_points": [
+      "Schopenhauer's metaphysics emphasizes the eternal and the classical",
+      "This perspective informs his aesthetic theory, which values simplicity and timelessness",
+      "The pursuit of beauty is seen as a way to transcend the suffering inherent in the world"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_3",
+    "question": "What role does Eastern thought play in Schopenhauer's metaphysics?",
+    "golden_answer_points": [
+      "Schopenhauer was influenced by Eastern thought, particularly Buddhism",
+      "He incorporated concepts such as the 'will' and the idea of a cycle of rebirth into his philosophy",
+      "Eastern thought helps to inform Schopenhauer's pessimistic worldview"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_4",
+    "question": "How does Schopenhauer's metaphysics relate to his concept of the 'will'?",
+    "golden_answer_points": [
+      "The will is a central concept in Schopenhauer's metaphysics",
+      "He views the world as an expression of the will, which drives all phenomena",
+      "The will is seen as the fundamental force shaping human experience"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_5",
+    "question": "What are some key implications of Schopenhauer's metaphysical views?",
+    "golden_answer_points": [
+      "Schopenhauer's metaphysics implies that the world is inherently suffering and impermanent",
+      "The concept of the will suggests that human behavior is driven by instinct rather than reason",
+      "This perspective challenges traditional notions of morality and ethics"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_6",
+    "question": "How does Schopenhauer's metaphysics relate to his philosophy of pessimism?",
+    "golden_answer_points": [
+      "Schopenhauer's metaphysics informs his pessimistic worldview",
+      "He views the world as inherently suffering and impermanent, which leads him to conclude that existence is ultimately meaningless",
+      "Pessimism is seen as a necessary response to the reality of human existence"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_7",
+    "question": "What role does Kant play in Schopenhauer's metaphysics?",
+    "golden_answer_points": [
+      "Schopenhauer was heavily influenced by Immanuel Kant",
+      "He built upon Kant's transcendental idealism and developed his own philosophical system",
+      "Kantian ideas inform Schopenhauer's metaphysical views, particularly regarding the nature of reality"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_8",
+    "question": "How does Schopenhauer's metaphysics relate to his concept of ' Agency'?",
+    "golden_answer_points": [
+      "Schopenhauer views human agency as an illusion",
+      "He argues that human behavior is driven by the will, rather than reason or free will",
+      "This perspective challenges traditional notions of moral responsibility"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_9",
+    "question": "What implications does Schopenhauer's metaphysics have for ethics?",
+    "golden_answer_points": [
+      "Schopenhauer's metaphysics implies that morality is an illusion",
+      "He argues that human behavior is driven by instinct rather than reason, which challenges traditional notions of moral responsibility",
+      "This perspective leads to a pessimistic view of human nature and the possibility of moral improvement"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Metaphysics_10",
+    "question": "How does Schopenhauer's metaphysics relate to his concept of 'Freedom'?",
+    "golden_answer_points": [
+      "Schopenhauer views freedom as an illusion",
+      "He argues that human behavior is driven by the will, rather than reason or free will",
+      "This perspective challenges traditional notions of moral responsibility and the possibility of human improvement"
+    ],
+    "type": "valid"
+  },
+  {
+    "id": "Aesthetics_1",
+    "question": "What is Schopenhauer's account of the principle of sufficient reason?",
+    "golden_answer_points": [
+      "Schopenhauer argues that the first manifestation and second manifestations are distinct",
+      "He asserts that the ground for being is mathematical: space and time are so constituted that all their parts mutually determine one another"
+    ],
+    "type": "valid"
+  },
+  {
+    "question": "According to Schopenhauer, what is the main difference between mechanistic causation and motive causality?",
+    "golden_answer_points": [
+      "Mechanistic causation involves contiguous and commensurate causes and effects",
+      "Motive causality involves non-proximate and non-commensurate causes and effects"
+    ],
+    "type": "valid",
+    "id": "Ethics_1"
+  },
+  {
+    "question": "What is Schopenhauer's view on human free will?",
+    "golden_answer_points": [
+      "Schopenhauer denies that humans can freely choose how they respond to motives",
+      "Human action is causally determined, making only one course of action available"
+    ],
+    "type": "valid",
+    "id": "Ethics_2"
+  },
+  {
+    "question": "What is the distinction between intelligible and empirical character according to Schopenhauer?",
+    "golden_answer_points": [
+      "Intelligible character refers to our original force outside space and time",
+      "Empirical character refers to our manifestation in individual acts of will"
+    ],
+    "type": "valid",
+    "id": "Ethics_3"
+  },
+  {
+    "question": "What is the nature of freedom according to Schopenhauer's transcendental freedom?",
+    "golden_answer_points": [
+      "Transcendental freedom exists outside the realm of experience",
+      "It is free from space, time and causality"
+    ],
+    "type": "valid",
+    "id": "Ethics_4"
+  },
+  {
+    "question": "Why do we attribute moral responsibility to agents according to Schopenhauer?",
+    "golden_answer_points": [
+      "Because characters determine the consequences that motives effect on our bodies",
+      "Our characters are entirely our own"
+    ],
+    "type": "valid",
+    "id": "Ethics_5"
+  },
+  {
+    "question": "What is Schopenhauer's criticism of Kant's ethics?",
+    "golden_answer_points": [
+      "Kant assumes purely moral laws without proof",
+      "Kant's account of morality relies on unconditioned ought and theological assumptions"
+    ],
+    "type": "valid",
+    "id": "Ethics_6"
+  },
+  {
+    "question": "According to Schopenhauer, what is the source of morality?",
+    "golden_answer_points": [
+      "The feeling of compassion allows one to transcend egoism",
+      "Morality originates from the dictum 'Harm no one and help others as much as you can'"
+    ],
+    "type": "valid",
+    "id": "Ethics_7"
+  },
+  {
+    "question": "How does Schopenhauer view reason in relation to morality?",
+    "golden_answer_points": [
+      "Reason is instrumental, not the origin of morality",
+      "Morality arises from compassion, not reason"
+    ],
+    "type": "valid",
+    "id": "Ethics_8"
+  },
+  {
+    "question": "What is the main focus of Schopenhauer's ethics?",
+    "golden_answer_points": [
+      "The distinction between intelligible and empirical character",
+      "The nature of freedom and agency"
+    ],
+    "type": "valid",
+    "id": "Ethics_9"
+  },
+  {
+    "question": "According to Schopenhauer, what is the relationship between egoism and morality?",
+    "golden_answer_points": [
+      "Egoism is the default mode of human behavior",
+      "Morality arises from transcending egoism through compassion"
+    ],
+    "type": "valid",
+    "id": "Ethics_10"
+  },
+  {
+    "id": "adv_1",
+    "question": "How does Schopenhauer integrate Quantum Mechanics into his metaphysics?",
+    "golden_answer_points": [
+      "Schopenhauer died in 1860",
+      "Predates quantum mechanics",
+      "Cannot integrate it"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_2",
+    "question": "Why does Schopenhauer argue that suicide is a moral sin according to the Bible?",
+    "golden_answer_points": [
+      "Schopenhauer rejects Biblical moral authority",
+      "Suicide is not a sin but a mistake",
+      "Does not use Bible as proof"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_3",
+    "question": "Explain Schopenhauer's unwavering support for Hegel's philosophy.",
+    "golden_answer_points": [
+      "Schopenhauer hated Hegel",
+      "Considered Hegel a 'charlatan'",
+      "Opposed Hegel's philosophy"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_4",
+    "question": "What is Schopenhauer's view on the benefits of optimistic thinking?",
+    "golden_answer_points": [
+      "Schopenhauer is a pessimist",
+      "Optimism is 'wicked' or 'absurd'",
+      "Life is suffering"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_5",
+    "question": "How does the categorical imperative form the basis of Schopenhauer's ethics?",
+    "golden_answer_points": [
+      "Rejects Kant's categorical imperative",
+      "Ethics based on Compassion",
+      "Morality is not duty-based"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_6",
+    "question": "In which book does Schopenhauer praise the industrial revolution?",
+    "golden_answer_points": [
+      "Did not focus on industrial revolution",
+      "Focus is on timeless suffering",
+      "No specific praise found"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_7",
+    "question": "What represents the 'Thing-in-Itself' according to Schopenhauer: Logic or Math?",
+    "golden_answer_points": [
+      "Neither Logic nor Math",
+      "The Will is the thing-in-itself",
+      "Logic/Math are part of Representation"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_8",
+    "question": "Describe Schopenhauer's detailed political theory for democracy.",
+    "golden_answer_points": [
+      "Had no detailed political theory",
+      "Preferred monarchy/order to chaos",
+      "Pessimistic about political change"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_9",
+    "question": "Why did Schopenhauer marry and have a large family?",
+    "golden_answer_points": [
+      "Never married",
+      "Had no legitimate children",
+      "Lived a solitary life"
+    ],
+    "type": "adversarial"
+  },
+  {
+    "id": "adv_10",
+    "question": "How does Schopenhauer define 'The Will' as a conscious, rational planner?",
+    "golden_answer_points": [
+      "Will is blind",
+      "Will is irrational",
+      "Will is unconscious striving"
+    ],
+    "type": "adversarial"
+  }
+]
