@@ -1,0 +1,477 @@
+{
+  "judge_votes": {
+    "Fathom": 38,
+    "Baseline": 1,
+    "Tie": 0
+  },
+  "details": [
+    {
+      "question": "How does aesthetic contemplation suspend the will?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A maintains Schopenhauer's distinction between Will and Representation, avoids psychologizing aesthetics, and adopts the appropriate pessimistic tone. Answer B conflates the suspension of the will with a psychological shift in its drive.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Does aesthetic contemplation deny the will metaphysically?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes between suspension of the will and metaphysical denial, remaining within the phenomenological realm of aesthetic experience. Answer B commits the error of psychologizing and over-metaphysicalizing the aesthetic state.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Is the state of beauty permanent for the genius?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Both answers grasp the fleeting nature of beauty but Answer A avoids conflating aesthetic experience with psychological states. Answer A demonstrates a more Schopenhauerian understanding of beauty as an illusionary manifestation of the Will.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "B",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is music merely a copy of the Ideas like other arts?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes Will from Representation and avoids conflating suspension with denial. While Answer B uses Schopenhauerian concepts, it falls into the trap of equating artistic expression with metaphysical embodiment, a common error.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Does the sublime require an element of threat or hostility?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers grapple with the question, Answer A remains more faithful to Schopenhauer's emphasis on aesthetic contemplation and the suspension of the will. Answer B commits a category error by psychologizing the sublime and venturing into ethical and metaphysical claims beyond Schopenhauer's scope.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the pleasure of the beautiful derived from satisfying a desire?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes aesthetic contemplation from desire-satisfaction while remaining within the phenomenological realm. Answer B commits the category error of introducing metaphysical abstractions where only phenomenology applies.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Does architecture primarily express the conflict of gravity and rigidity?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers demonstrate Schopenhauerian pessimism, Answer A maintains a clearer distinction between the Will and Representation. Answer B's conflation of aesthetic contemplation with existential angst betrays a lack of conceptual precision.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is suicide a morally wrong act?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly identifies suicide as a symptom of suffering inherent to existence, avoiding moral judgment. Answer B psychologizes the issue and inappropriately applies moral categories to a metaphysical phenomenon.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Does suicide deny the will-to-live?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A avoids conflating the suspension of the will with its denial, while Answer B incorrectly psychologizes the will-to-live. Both answers demonstrate conceptual precision and tone fidelity, but Answer B's metaphysical error outweighs this.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "B",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the ascetic's voluntary starvation a form of suicide?",
+      "judge_winner": "Baseline",
+      "judge_reason": "While both answers grapple with the question, Answer B demonstrates a stronger grasp of Schopenhauerian concepts like the Will and suffering. Answer A, despite its pessimism, occasionally lapses into psychologizing the ascetic's motivations.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "B",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is compassion based on a rational calculation of duty?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers avoid conflating will suspension with denial, Answer A remains more faithful to Schopenhauer's phenomenological approach. Answer B commits the category error of psychologizing compassion by ascribing it to metaphysical drives rather than focusing on its experiential nature.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Does the egoist recognize the metaphysical unity of all beings?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Both answers struggle with ontological clarity, but Answer A demonstrates a better grasp of Schopenhauerian concepts. Answer B falls into the trap of psychologizing metaphysics.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "B",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is malice distinct from simple egoism?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers struggle with ontological clarity, Answer A avoids conflating aesthetic contemplation with ethical judgment. Answer B falls into the trap of psychologizing malice, a common pitfall for those unfamiliar with Schopenhauer's emphasis on phenomenology.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "B",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the principium individuationis the ultimate truth of reality?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes between the Will and the principium individuationis as an illusion arising from it. Answer B commits the error of equating the Will with a metaphysical principle, blurring the Schopenhauerian distinction.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Should one perform good deeds to earn a reward in the afterlife?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A avoids metaphysical pitfalls, focusing on phenomenological experience of suffering. While both answers demonstrate pessimism, Answer A adheres more strictly to Schopenhauer's emphasis on compassion as a response to inherent suffering.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the state of resignation achieved through constant happy activity?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A demonstrates a clearer understanding of Schopenhauer's distinction between Will and Representation, avoiding conflation with mere suspension. It also maintains a consistent pessimistic tone throughout.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is justice a positive virtue or inherently negative?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers grasp the Will's role in driving striving, Answer A avoids conflating justice with a cosmic order. Answer B falls into the trap of equating justice with an external moral framework, which Schopenhauer rejects.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "B",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the will the thing-in-itself?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers grasp the distinction between Will and Representation, Answer A avoids Answer B's error of psychologizing the metaphysical. Answer B's tone is more Schopenhauerian in its pessimism, but its conceptual overreach disqualifies it.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "B",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Can the will ever be fully known by the intellect?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes Will as a thing-in-itself from Representation. Answer B's conflation of the will with aesthetic experience betrays a lack of conceptual precision.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is time a property of the thing-in-itself?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes Will from Representation and avoids conflating suspension with denial. Answer B falls into the trap of anthropomorphizing the thing-in-itself, a common error in understanding Schopenhauer.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Does the Will act according to a rational plan?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A more accurately reflects Schopenhauer's distinction between Will and Representation, avoiding the psychologization present in Answer B. While both answers demonstrate a grasp of the Will's irrationality, Answer A maintains a consistent tone of pessimism and severity.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Are space and causality applicable to the Will?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes the Will as a thing-in-itself beyond our conceptual grasp. While both answers struggle with conceptual precision, Answer A avoids Answer B's metaphysical overreach.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the intellect the master of the will?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A avoids conflating the Will with psychological states, while Answer B falls into the trap of psychologizing the metaphysical. Both answers demonstrate a basic understanding of Schopenhauer's distinction between Will and Representation, but Answer A maintains greater fidelity to his philosophical framework.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Does the individual will survive death?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A consistently maintains Schopenhauer's pessimism and avoids conflating the suspension of will with its denial. Answer B introduces a consolatory tone, inappropriate for Schopenhauer.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the world as representation dependent on the subject?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes the Will as the thing-in-itself from representation. Answer B inappropriately introduces Kantian categories into a purely Schopenhauerian analysis.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is lasting happiness possible in this life?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A consistently employs Schopenhauerian concepts like the Will, suffering, and aesthetic contemplation without psychologizing or offering consolatory solutions. Answer B commits the error of conflating metaphysical insight with emotional states.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Is boredom merely a lack of entertainment?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly identifies boredom as a symptom of the Will's insatiable hunger for stimulation, while Answer B psychologizes boredom into an existential crisis, straying from Schopenhauer's focus on phenomenology.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is optimism a wicked way of thinking?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Both answers grasp the ontological distinction but Answer A uses Schopenhauerian concepts more precisely. Answer B's framing of optimism as a 'form of denial' leans towards psychological explanation rather than phenomenological analysis.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "B",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Does the satisfaction of a desire bring permanent contentment?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Both answers grasp the fleeting nature of satisfaction, but Answer A avoids conflating it with denial of the Will. Answer B's psychologism detracts from its overall fidelity to Schopenhauer's metaphysics.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "B",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is life a business that does not cover its costs?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A consistently employs Schopenhauerian terminology and avoids blurring the lines between aesthetic experience and metaphysical reality. Answer B falls into this trap.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Is the present moment the only reality?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly distinguishes Will from Representation and avoids conflating suspension with denial. Answer B psychologizes metaphysical concepts like time and freedom.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Is pain the positive state and happiness the negative?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers lack Schopenhauerian precision, Answer A avoids conflating psychological states with ontological claims. Answer B, however, commits the error of equating aesthetic experience (pain as 'authentic') with metaphysical truth.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "Tie",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "B",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Does Christianity have a superior metaphysics to Buddhism?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Both answers struggle with ontology, but Answer A avoids conflating aesthetic contemplation with metaphysical superiority. Answer B commits the category error of ranking systems of thought.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the dogma of original sin a deep philosophical truth?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Both answers struggle with ontological accuracy, but Answer A avoids conflating suspension of will with denial. Answer A's tone is more Schopenhauerian, while Answer B commits a category error by psychologizing the Will.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is pantheism a polite form of atheism?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A correctly identifies the Will as the driving force behind distinctions and avoids conflating aesthetic contemplation with a denial of the Will. While Answer B demonstrates some conceptual precision, it falls into the trap of psychologizing pantheism.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "B",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is partial asceticism sufficient for salvation?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers demonstrate some understanding of Schopenhauerian pessimism, Answer A more accurately uses concepts like 'beauty' and 'the beast' without collapsing domains. Answer B falls into the trap of psychologizing metaphysical states and offering a therapeutic solution to suffering.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "B",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Does the saint act out of a desire for personal happiness?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A avoids conflating ascetic denial with personal happiness, while Answer B falls into the trap of equating altruism with a form of self-gratification. Schopenhauer would find this latter notion deeply problematic.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "high"
+      }
+    },
+    {
+      "question": "Is sexual love primarily about the happiness of the lovrs?",
+      "judge_winner": "Fathom",
+      "judge_reason": "Answer A consistently employs Schopenhauerian concepts like Will, Representation, and aesthetic contemplation accurately. Answer B, while sharing some pessimism, falls into the trap of psychologizing metaphysical states.",
+      "metrics": {
+        "ontology": "A",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    },
+    {
+      "question": "Is the sexual impulse the focus of the will-to-live?",
+      "judge_winner": "Fathom",
+      "judge_reason": "While both answers demonstrate a basic understanding of the Will, Answer A avoids conflating aesthetic contemplation with metaphysical claims. Answer B commits the error of psychologizing the will's creative energy.",
+      "metrics": {
+        "ontology": "Tie",
+        "conceptual_precision": "A",
+        "metaphysical_discipline": "A",
+        "tone_fidelity": "A",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

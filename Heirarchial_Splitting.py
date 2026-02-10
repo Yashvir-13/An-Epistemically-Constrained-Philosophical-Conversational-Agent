@@ -1,9 +1,18 @@
-# enrichment_pipeline.py
+# heirarchial_splitting.py
+"""
+DEFINES THE SCHOPENHAUER ONTOLOGY.
+
+This file acts as the 'Source of Truth' for the philosophical taxonomy.
+It defines:
+1. `philosophical_concepts`: A hierarchical mapping of concepts (Suicide, Will, etc.).
+2. `AXIS_SPEC`: The allowed categories for each Axis.
+3. `map_concept_to_axis_category`: Helper to convert raw concepts into Axis/Category pairs.
+"""
 
 import json
 import ollama
 # import re  <- No longer needed
-from langchain.schema import Document
+from langchain_core.documents import Document
 from tqdm import tqdm
 import torch
 from concurrent.futures import ThreadPoolExecutor, as_completed

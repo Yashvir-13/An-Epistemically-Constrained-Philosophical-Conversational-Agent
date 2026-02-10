@@ -1,3 +1,14 @@
+# Embeddings.py
+"""
+Builds the ChromaDB Vector Store from enriched documents.
+
+Pipeline:
+1. Loads `enriched_documents.json`.
+2. Splits documents into chunks (512 chars).
+3. Serializes metadata (belief states) for storage.
+4. Generates embeddings using `intfloat/e5-large-v2`.
+5. Persists to `schopenhauer_vector_db`.
+"""
 import json
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter

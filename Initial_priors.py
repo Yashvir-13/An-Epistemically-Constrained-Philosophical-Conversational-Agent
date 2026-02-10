@@ -14,6 +14,11 @@ INPUT_FILE = "enriched_documents.json"
 
 def build_global_priors(input_file: str = INPUT_FILE):
     """
+    Constructs Bayesian Priors from the ingested corpus (`enriched_documents.json`).
+    
+    It scans the entire database of enriched documents to see how frequently 
+    concepts appear. This establishes the 'Base Rate' for each philosophical category.
+    
     Returns:
       priors_by_axis = {
         axis_name: { category: prob, ... }
@@ -47,15 +52,20 @@ def build_global_priors(input_file: str = INPUT_FILE):
                 weight = max(0.0, (val + 1.0) / 2.0)
                 accum[axis][cat] += weight
 
-    # Normalize to probability distributions
+    # Normalize to probability distributions with DAMPENING (Smoothing)
     priors_by_axis = {}
+    DAMPING_FACTOR = 0.5 # Mix 50% uniform, 50% data derived
+    
     for axis, cat_counts in accum.items():
         total = sum(cat_counts.values()) or 1.0
-        priors_by_axis[axis] = {cat: (cat_counts.get(cat, 0.0) / total) for cat in AXES_SPEC[axis]}
-
-        # If everything is zero (no evidence), set uniform
-        if sum(priors_by_axis[axis].values()) == 0.0:
-            uniform = 1.0 / len(AXES_SPEC[axis])
-            priors_by_axis[axis] = {cat: uniform for cat in AXES_SPEC[axis]}
+        data_dist = {cat: (cat_counts.get(cat, 0.0) / total) for cat in AXES_SPEC[axis]}
+        
+        # Mix with uniform
+        uniform_prob = 1.0 / len(AXES_SPEC[axis])
+        final_dist = {}
+        for cat, p in data_dist.items():
+            final_dist[cat] = (p * (1 - DAMPING_FACTOR)) + (uniform_prob * DAMPING_FACTOR)
+            
+        priors_by_axis[axis] = final_dist
 
     return priors_by_axis

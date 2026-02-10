@@ -39,6 +39,15 @@ def parse_schopenhauer_text(text: str, source_file: str) -> list[Document]:
     """
     Parses the full text of a Schopenhauer volume, creating documents
     for each chapter/section with appropriate metadata.
+    
+    Logic:
+    - Uses Regex to identify Roman Numeral headings (BOOK I, CHAPTER IV, etc.).
+    - Splits text into semantic chunks (Sections).
+    - Ignores small/empty chunks (<200 chars).
+    """
+    """
+    Parses the full text of a Schopenhauer volume, creating documents
+    for each chapter/section with appropriate metadata.
     """
     # This regex is designed to find major structural breaks.
     # It looks for "BOOK" or "CHAPTER" followed by Roman numerals, or a section "§".

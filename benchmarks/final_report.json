@@ -1,0 +1,14 @@
+{
+  "belief_sensitivity": 0.35,
+  "doctrine_convergence": 0.37,
+  "axis_focus_score": 1.0,
+  "entropy_resolution": -0.0,
+  "epistemic_violation_rate": 0.23,
+  "self_repair_rate": 1.0,
+  "axis_routing_accuracy": 0.56,
+  "baseline_comparison": {
+    "doctrine_accuracy": 0.21,
+    "axis_focus_score": 1.0,
+    "violation_rate": 0.03
+  }
+}

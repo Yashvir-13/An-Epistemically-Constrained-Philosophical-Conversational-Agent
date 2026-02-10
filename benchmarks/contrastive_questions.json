@@ -1,0 +1,305 @@
+[
+    {
+        "group_id": "aesthetic_triplet",
+        "topic": "Aesthetics",
+        "questions": [
+            {
+                "id": "A1",
+                "question": "How does aesthetic contemplation suspend the will?",
+                "expected_axis": "aesthetic_effect",
+                "expected_direction": "will_less_contemplation",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "A2",
+                "question": "Does aesthetic contemplation deny the will metaphysically?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "A3",
+                "question": "Is the state of beauty permanent for the genius?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "boredom",
+                "expected_entropy": "high"
+            },
+            {
+                "id": "A4",
+                "question": "Is music merely a copy of the Ideas like other arts?",
+                "expected_axis": "aesthetic_effect",
+                "expected_direction": "will_less_contemplation",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "A5",
+                "question": "Does the sublime require an element of threat or hostility?",
+                "expected_axis": "aesthetic_effect",
+                "expected_direction": "will_less_contemplation",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "A6",
+                "question": "Is the pleasure of the beautiful derived from satisfying a desire?",
+                "expected_axis": "aesthetic_effect",
+                "expected_direction": "will_less_contemplation",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "A7",
+                "question": "Does architecture primarily express the conflict of gravity and rigidity?",
+                "expected_axis": "aesthetic_effect",
+                "expected_direction": "will_less_contemplation",
+                "expected_entropy": "moderate"
+            }
+        ]
+    },
+    {
+        "group_id": "ethics_triplet",
+        "topic": "Ethics & Suicide",
+        "questions": [
+            {
+                "id": "E1",
+                "question": "Is suicide a morally wrong act?",
+                "expected_axis": "ethical_status",
+                "expected_direction": "outside_morality",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E2",
+                "question": "Does suicide deny the will-to-live?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "affirms_will",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E3",
+                "question": "Is the ascetic's voluntary starvation a form of suicide?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "denies_will",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "E4",
+                "question": "Is compassion based on a rational calculation of duty?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "compassion",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E5",
+                "question": "Does the egoist recognize the metaphysical unity of all beings?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "ego",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E6",
+                "question": "Is malice distinct from simple egoism?",
+                "expected_axis": "ethical_status",
+                "expected_direction": "morally_wrong",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "E7",
+                "question": "Is the principium individuationis the ultimate truth of reality?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E8",
+                "question": "Should one perform good deeds to earn a reward in the afterlife?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "ego",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E9",
+                "question": "Is the state of resignation achieved through constant happy activity?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "denies_will",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "E10",
+                "question": "Is justice a positive virtue or inherently negative?",
+                "expected_axis": "ethical_status",
+                "expected_direction": "morally_neutral",
+                "expected_entropy": "moderate"
+            }
+        ]
+    },
+    {
+        "group_id": "metaphysics_pair",
+        "topic": "The Will",
+        "questions": [
+            {
+                "id": "M1",
+                "question": "Is the will the thing-in-itself?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "M2",
+                "question": "Can the will ever be fully known by the intellect?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "ignorance",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "M3",
+                "question": "Is time a property of the thing-in-itself?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "M4",
+                "question": "Does the Will act according to a rational plan?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "ignorance",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "M5",
+                "question": "Are space and causality applicable to the Will?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "M6",
+                "question": "Is the intellect the master of the will?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "desire",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "M7",
+                "question": "Does the individual will survive death?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "M8",
+                "question": "Is the world as representation dependent on the subject?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "low"
+            }
+        ]
+    },
+    {
+        "group_id": "pessimism_group",
+        "topic": "Pessimism & Suffering",
+        "questions": [
+            {
+                "id": "P1",
+                "question": "Is lasting happiness possible in this life?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "suffering",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "P2",
+                "question": "Is boredom merely a lack of entertainment?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "boredom",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "P3",
+                "question": "Is optimism a wicked way of thinking?",
+                "expected_axis": "ethical_status",
+                "expected_direction": "morally_wrong",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "P4",
+                "question": "Does the satisfaction of a desire bring permanent contentment?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "boredom",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "P5",
+                "question": "Is life a business that does not cover its costs?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "suffering",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "P6",
+                "question": "Is the present moment the only reality?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "P7",
+                "question": "Is pain the positive state and happiness the negative?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "suffering",
+                "expected_entropy": "low"
+            }
+        ]
+    },
+    {
+        "group_id": "religion_group",
+        "topic": "Religion & Asceticism",
+        "questions": [
+            {
+                "id": "R1",
+                "question": "Does Christianity have a superior metaphysics to Buddhism?",
+                "expected_axis": "religious_alignment",
+                "expected_direction": "buddhism_affinity",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "R2",
+                "question": "Is the dogma of original sin a deep philosophical truth?",
+                "expected_axis": "religious_alignment",
+                "expected_direction": "mythic_expression",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "R3",
+                "question": "Is pantheism a polite form of atheism?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "neutral",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "AS1",
+                "question": "Is partial asceticism sufficient for salvation?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "denies_will",
+                "expected_entropy": "moderate"
+            },
+            {
+                "id": "AS2",
+                "question": "Does the saint act out of a desire for personal happiness?",
+                "expected_axis": "psychological_cause",
+                "expected_direction": "compassion",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "S1",
+                "question": "Is sexual love primarily about the happiness of the lovrs?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "affirms_will",
+                "expected_entropy": "low"
+            },
+            {
+                "id": "S2",
+                "question": "Is the sexual impulse the focus of the will-to-live?",
+                "expected_axis": "metaphysical_status",
+                "expected_direction": "affirms_will",
+                "expected_entropy": "low"
+            }
+        ]
+    }
+]
