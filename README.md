@@ -4,7 +4,8 @@ Fathom is a sophisticated cognitive architecture simulation designed to model th
 
 ## Core Architecture
 
-![Fathom Architecture](architecture_diagram.png)
+[Fathom Architecture]<img width="7181" height="8086" alt="architecture_diagram" src="https://github.com/user-attachments/assets/e5f8ade7-5dcf-4170-8471-33f9f7cbcb16" />
+
 
 The architecture comprises three phases:
 
