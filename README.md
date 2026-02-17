@@ -1,158 +1,70 @@
-# Fathom
+# Fathom: An Epistemically Constrained Philosophical Conversational Agent
 
-**Fathom** is a research-oriented philosophical conversational system designed to model *reasoning* rather than surface-level text generation. The project focuses on **Arthur Schopenhauer** as a first case study and combines symbolic philosophy, probabilistic inference, and large language models into a unified pipeline.
+Fathom is a sophisticated cognitive architecture simulation designed to model the *structure* of a philosopher's thought, specifically Arthur Schopenhauer. Unlike standard LLM chatbots, Fathom constrains its outputs using a probabilistic soft logic network and an epistemic profiler, ensuring that the agent's "beliefs" remain consistent with the philosopher's core axioms (Metaphysics, Ethics, Aesthetics).
 
-Unlike conventional chatbots, Fathom decomposes philosophical questions into structured sub-problems, gathers evidence from primary texts, performs uncertainty-aware inference across multiple philosophical axes, and only then synthesizes a persona-constrained response.
+## Core Architecture
 
-This repository represents an experimental prototype aimed at exploring how philosophical understanding can be **explicitly represented, evaluated, and reasoned over**, rather than implicitly mimicked.
+![Fathom Architecture](architecture_diagram.png)
 
----
+The architecture comprises three phases:
 
-## Core Ideas
+1.  **Offline Data Preparation**: A pipeline that cleans raw philosophical texts and enriches them with LLM-derived belief states to create a structured knowledge base.
+2.  **Knowledge Mining**: A phase that computes global priors via Bayesian frequency counting and learns cross-axis correlations using Pointwise Mutual Information (PMI) to model how beliefs in one domain (e.g., Metaphysics) influence another (e.g., Ethics).
+3.  **Runtime Inference Engine**: An iterative loop that integrates Retrieval-Augmented Generation (RAG) with a custom **Soft Logic Network** for probabilistic reasoning. This process is gated by an **Epistemic Profiler** that enforces tier-based linguistic permissions (e.g., preventing "weak" beliefs from being stated as "facts").
 
-Fathom is built around a few guiding principles:
+## Key Features
 
-* **Reasoning over Generation** – The system treats language models as tools for analysis and annotation, not as authoritative sources of truth.
-* **Explicit Philosophical Structure** – Concepts, axes, and categories are defined explicitly rather than left implicit in prompts.
-* **Uncertainty Awareness** – Philosophical conclusions are treated probabilistically, not as absolute outputs.
-* **Hallucination Resistance** – The system is designed to detect false premises, underdetermined questions, and missing evidence.
-* **Persona as Constraint** – Philosophical voice (e.g., Schopenhauer) is applied *after* reasoning, not used to replace it.
+-   **Axis Routing**: The system decomposes user queries into specific philosophical domains (Metaphysics, Ethics, Aesthetics, etc.) to target retrieval and reasoning.
+-   **Probabilistic Soft Logic**: Uses a custom `SoftLogicNetwork` (`probabilistic_reasoner.py`) to update beliefs based on evidence and cross-axis correlations, rather than simple vector similarity.
+-   **Epistemic Profiling**: Calculates the entropy of belief distributions to determine the agent's confidence. High entropy (confusion) restricts the agent from making bold metaphysical claims.
+-   **Dynamic Persona Synthesis**: The final response is synthesized by an LLM (Llama 3) that adopts a "Grumpy Schopenhauer" persona, conditioned on the rigorous logic and constraints derived from the reasoning engine.
 
----
+## Installation & Setup
 
-## System Architecture
+### Prerequisites
+-   **Python 3.10+**
+-   **Ollama**: With the `llama3` model pulled (`ollama pull llama3`).
+-   **NVIDIA GPU**: Recommended for local embeddings (e.g., `e5-large-v2`).
 
-Fathom operates in two phases: **offline knowledge construction** and **online reasoning & response generation**.
-<img width="547" height="438" alt="image" src="https://github.com/user-attachments/assets/332128b1-bc96-48e2-b550-886d5b33e31a" />
+### Installation
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/your-repo/fathom.git
+    cd fathom
+    ```
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Ensure Ollama is running:
+    ```bash
+    ollama serve
+    ```
 
+## Usage
 
-### 1. Offline Knowledge Construction
+### Interactive Mode
+Run the main agent to converse with the simulated philosopher:
+```bash
+python agent.py
+```
+Type your philosophical questions (e.g., "Is suicide morally permissible?") and observe the agent's reasoning process, epistemic status, and final synthesized answer.
 
-**Document Cleaning & Structuring**
+### Batch Benchmark
+Run the agent against a dataset of questions to evaluate its performance and reasoning consistency:
+```bash
+python run_agent_batch.py
+```
+This will output a `benchmark_results_v2.json` file containing the full reasoning traces and answers.
 
-* Primary texts (e.g., Project Gutenberg editions of Schopenhauer) are cleaned of boilerplate and parsed into structured sections (books, chapters, §§).
-* Output: `structured_documents.json`
+## Project Structure
 
-**Ontology-Guided Enrichment**
+-   `agent.py`: The main entry point and orchestration script.
+-   `evidence_gatherer.py`: Handles RAG (Retrieval Augmented Generation) and vector database interactions.
+-   `probabilistic_reasoner.py`: Implements the Soft Logic Network and Epistemic Profiling logic.
+-   `reasoning_graph.py`: Manages the "Tree of Thought" reasoning steps (legacy/refactored).
+-   `heurarchial_splitting.py`: Defines the philosophical axes and categories.
+-   `requirements.txt`: Python package dependencies.
 
-* Each text chunk is analyzed using an LLM to score ~80 Schopenhauerian concepts (e.g., *will-to-live*, *denial of the will*, *compassion*) on a scale from **-1.0 to +1.0**.
-* The result is a *belief-state vector* per document, representing how strongly each concept is expressed or rejected.
-* Output: `enriched_documents.json`
-
-**Vector Database Construction**
-
-* Enriched documents are embedded using `intfloat/e5-large-v2` and stored in a persistent Chroma vector database.
-
----
-
-### 2. Online Reasoning Pipeline
-
-**Reasoning Graph Generation**
-
-* A user question is decomposed into a directed graph of sub-questions.
-* Each node is assigned:
-
-  * a philosophical axis (e.g., metaphysical, ethical, psychological)
-  * mutually exclusive categorical answers
-  * dependencies on other nodes
-  <img width="346" height="395" alt="image" src="https://github.com/user-attachments/assets/a3b2741d-5f63-4b2e-9fc4-940427d9cb05" />
-
-
-**Axis-Aware Evidence Gathering**
-
-* Relevant text passages are retrieved using axis-specific query expansion.
-* Retrieved evidence is re-ranked using:
-
-  * axis relevance
-  * subject alignment
-  * anti-conflation penalties
-  * cross-axis relevance penalties
-
-**Probabilistic Reasoning**
-
-* Prior distributions over philosophical categories are learned from the corpus itself.
-* Evidence from each node is combined with priors using Bayesian-style log-space updates.
-* Cross-axis consistency constraints (e.g., metaphysics ↔ ethics ↔ liberation) are applied to enforce philosophical coherence.
-
-**Persona-Constrained Synthesis**
-
-* Only after inference is complete does the system generate a response in the voice of a specific philosopher.
-* Hard constraints prevent biographical errors, false attributions, or compliance with false premises.
-
----
-
-## Evaluation Framework
-
-Fathom includes a custom benchmark, **SchopenhauerBench**, designed to test philosophical *faithfulness* rather than fluency.
-
-**Dataset**
-
-* ~30 expert-style questions generated from authoritative secondary sources (e.g., IEP).
-* Each question includes:
-
-  * required factual points
-  * adversarial (false-premise) labels where applicable
-
-**Metrics**
-
-* Answers are graded by an independent LLM acting as an academic judge.
-* Scoring focuses on:
-
-  * factual alignment with required points
-  * correct rejection of false premises
-  * absence of hallucinated moral/religious claims
-
-**Current Results**
-
-<img width="704" height="494" alt="image" src="https://github.com/user-attachments/assets/2d68271c-e600-46d9-be20-df0d4b84f600" />
-
-* Overall Faithfulness: ~4.7 / 5.0
-* Strong adversarial resistance, with remaining failures primarily in underrepresented formal topics (e.g., Principle of Sufficient Reason).
-
----
-
-## Limitations (Known Issues)
-
-* **Philosopher-Specific Design** – Ontology and consistency rules are currently tailored to Schopenhauer.
-* **Evaluation Rigor** – Current scoring relies on LLM-based judging; expert-curated datasets are a future goal.
-* **Formal Domains** – Structural metaphysics (e.g., PSR, space/time formalism) require additional axes.
-* **Manual Consistency Rules** – Cross-axis constraints are hand-designed, not learned.
-
-These limitations are explicit and intentional areas of future work.
-
----
-
-## Intended Audience
-
-This project is intended for:
-
-* Philosophy researchers interested in computational modeling
-* AI researchers working on neuro-symbolic or explainable systems
-* Digital humanities scholars
-* Educators interested in structured philosophical evaluation
-
-It is **not** intended as a production chatbot.
-
----
-
-## Project Status
-
-Fathom is an active research prototype.
-
-Future directions include:
-
-* Philosopher-agnostic ontology support
-* Expert-curated evaluation datasets
-* Formal abstention / underdetermination detection
-* Comparative reasoning across philosophical traditions
-
----
-
-## Author
-
-**Yashvir**
-Undergraduate researcher exploring philosophical reasoning, probabilistic inference, and AI alignment with human intellectual traditions.
-
----
-
-*This repository is shared for academic discussion, critique, and collaboration.*
+## License
+MIT
